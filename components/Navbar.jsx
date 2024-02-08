@@ -9,8 +9,8 @@ const Navbar = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <nav className="w-full fixed wrap z-20">
-      <div className="w-full  relative flex justify-between items-center px-5 py-5">
+    <nav className="w-full fixed z-20 py-5">
+      <div className="wrap relative flex justify-between items-center px-5 ">
         <Link href="/">
           <Image src="/image/logo.png" alt="logo" width={45} height={45} />
         </Link>
@@ -47,7 +47,7 @@ const Navbar = () => {
           </div>
         </div>
         {/* Desktop Navbar */}
-        <div className="lg:flex md:flex gap-12 hidden">
+        <div className="md:flex gap-12 hidden">
           <Link href="/" className="text-orange">
             About
           </Link>
