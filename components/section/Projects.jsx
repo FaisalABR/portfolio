@@ -1,69 +1,38 @@
 "use client";
 import React from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
+import { FaArrowRightLong } from "react-icons/fa6";
 
-// Import Swiper styles
-import "swiper/css";
-import "swiper/css/effect-coverflow";
-import "swiper/css/pagination";
-
-// import required modules
-import { EffectCoverflow, Pagination } from "swiper/modules";
+import ProjectCard from "../ProjectCard";
+import { featuredProjects } from "@/utils/data";
+import Link from "next/link";
 
 const Projects = () => {
   return (
     <div className="w-full bg-dark py-10">
       <div className="wrap text-center">
-        <h2 className="head_text pt-10 lg:pt-20">
+        <h2 className="head_text pt-10 lg:pt-20" data-aos="zoom-in">
           My <span className="text-orange">Projects</span>
         </h2>
-        <div className="w-full mt-10">
-          <>
-            <Swiper
-              effect={"coverflow"}
-              grabCursor={true}
-              centeredSlides={true}
-              slidesPerView={"auto"}
-              coverflowEffect={{
-                rotate: 50,
-                stretch: 0,
-                depth: 100,
-                modifier: 1,
-                slideShadows: true,
-              }}
-              pagination={true}
-              modules={[EffectCoverflow, Pagination]}
-              className="mySwiper"
-            >
-              <SwiperSlide>
-                <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
-              </SwiperSlide>
-              <SwiperSlide>
-                <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
-              </SwiperSlide>
-              <SwiperSlide>
-                <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
-              </SwiperSlide>
-              <SwiperSlide>
-                <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
-              </SwiperSlide>
-              <SwiperSlide>
-                <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
-              </SwiperSlide>
-              <SwiperSlide>
-                <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
-              </SwiperSlide>
-              <SwiperSlide>
-                <img src="https://swiperjs.com/demos/images/nature-7.jpg" />
-              </SwiperSlide>
-              <SwiperSlide>
-                <img src="https://swiperjs.com/demos/images/nature-8.jpg" />
-              </SwiperSlide>
-              <SwiperSlide>
-                <img src="https://swiperjs.com/demos/images/nature-9.jpg" />
-              </SwiperSlide>
-            </Swiper>
-          </>
+
+        <div className="w-full mt-10 grid grid-cols-1 md:grid-cols-3 gap-4">
+          {featuredProjects.map((item) => (
+            <ProjectCard
+              key={item.id}
+              title={item.title}
+              link={item.link}
+              image={item.image}
+              tech={item.tech}
+              delay={item.delay}
+            />
+          ))}
+        </div>
+        <div className="w-full flex justify-end mt-5">
+          <Link href="/projects">
+            <div className="flex gap-3 items-center text-orange font-semibold relative cursor-pointer group">
+              <span className="-ml-36   ">Other Projects</span>{" "}
+              <FaArrowRightLong className="absolute -left-9 group-hover:-left-5 transition-all" />
+            </div>
+          </Link>
         </div>
       </div>
     </div>

@@ -1,5 +1,6 @@
 import { Roboto } from "next/font/google";
 import "./globals.css";
+import "aos/dist/aos.css";
 
 const poppins = Roboto({
   subsets: ["latin"],

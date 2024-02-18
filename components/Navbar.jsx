@@ -9,7 +9,7 @@ const Navbar = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <nav className="w-full fixed z-20 py-5">
+    <nav className="w-full fixed z-20 py-5" data-aos="fade-down">
       <div className="wrap relative flex justify-between items-center px-5 ">
         <Link href="/">
           <Image src="/image/logo.png" alt="logo" width={45} height={45} />

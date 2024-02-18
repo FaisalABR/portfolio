@@ -2,10 +2,13 @@ const About = () => {
   return (
     <div className="w-full bg-dark">
       <div className="wrap text-center">
-        <h2 className="head_text pt-10 lg:pt-20">
+        <h2 className="head_text pt-10 lg:pt-20" data-aos="fade-down">
           About <span className="text-orange">Me</span>
         </h2>
-        <p className="text-white mt-5 pb-5 md:text-lg lg:text-lg md:mt-10 md:pb-10 lg:mt-12 lg:pb-12">
+        <p
+          data-aos="zoom-in-down"
+          className="text-white mt-5 pb-5 md:text-lg lg:text-lg md:mt-10 md:pb-10 lg:mt-12 lg:pb-12"
+        >
           I am a third-year undergraduate student at UIN Syarif Hidayatullah
           Jakarta, majoring in Information Systems. I have been specializing in
           Web development for over a year, proficient in utilizing web stacks

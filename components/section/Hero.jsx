@@ -11,6 +11,7 @@ const Hero = () => {
             alt="profile"
             width={350}
             height={350}
+            data-aos="fade-down"
             className="object-contain rounded-full absolute top-3 left-5 lg:block md:block hidden "
           />
           <Image
@@ -18,15 +19,16 @@ const Hero = () => {
             alt="profile"
             width={350}
             height={350}
+            data-aos="fade-up"
             className="object-contain rounded-full relative z-10"
           />
         </div>
-        <div className="text-left">
+        <div className="text-left" data-aos="fade-left">
           <h1 className="md:text-left lg:text-left text-center mt-5 text-3xl lg:text-5xl text-orange">
             <span className="text-white font-semibold">Hello, </span>
             {"I'"}m <br /> Faisal Abu Bakar Riza
           </h1>
-          <p className="text-xl lg:text-3xl md:text-left lg:text-left text-center mt-5">
+          <p className=" text-xl lg:text-3xl md:text-left lg:text-left text-center mt-5">
             Web Developer and Machine Learning
           </p>
 

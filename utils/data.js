@@ -65,3 +65,30 @@ export const skillsData = [
     image: "/image/tensorflow.svg",
   },
 ];
+
+export const featuredProjects = [
+  {
+    id: 14,
+    title: "Store GG",
+    image: "/image/storegg.PNG",
+    tech: ["Next Js", "Tailwind", "Express", "Mongo DB"],
+    link: "https://precious-gecko-bf07b1.netlify.app/",
+    delay: 300,
+  },
+  {
+    id: 15,
+    title: "Drip Shop",
+    image: "/image/drip.PNG",
+    tech: ["React", "Tailwind", "Redux"],
+    link: "https://coruscating-beignet-7b8c51.netlify.app",
+    delay: 600,
+  },
+  {
+    id: 16,
+    title: "Trus",
+    image: "/image/trus.PNG",
+    tech: ["React", "Tailwind"],
+    link: "https://sparkling-tarsier-f07d58.netlify.app",
+    delay: 900,
+  },
+];

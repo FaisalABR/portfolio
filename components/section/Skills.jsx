@@ -6,7 +6,10 @@ const Skills = () => {
   return (
     <div className="w-full bg-dark-gray">
       <div className="wrap">
-        <h2 className="head_text pt-10 lg:pt-20 text-center">
+        <h2
+          data-aos="fade-down"
+          className="head_text pt-10 lg:pt-20 text-center"
+        >
           My <span className="text-orange">Skills</span>
         </h2>
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 justify-items-center mt-10 px-10 pb-10">
