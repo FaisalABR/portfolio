@@ -14,7 +14,7 @@ export default function Home() {
     AOS.init({
       easing: "ease-out-cubic",
       once: false,
-      offset: 200,
+      offset: 50,
       delay: 150,
     });
   });

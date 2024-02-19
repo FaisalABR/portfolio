@@ -1,8 +1,7 @@
 import React from "react";
-import Button from "./Button";
 import Link from "next/link";
 
-const ProjectCard = ({ title, image, tech, link, delay }) => {
+const ProjectCard = ({ title, image, tech, link }) => {
   return (
     <Link href={link} target="_blank">
       <div className=" flex flex-col transition-all bottom-0 hover:shadow-lg relative hover:bottom-4 hover:shadow-orange rounded-md ">

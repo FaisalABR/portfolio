@@ -1,9 +1,13 @@
 import Image from "next/image";
 import Button from "../Button";
+import Link from "next/link";
 
 const Hero = () => {
   return (
-    <div className="w-full h-screen bg-dark-gray pt-20 text-white px-5 lg:pt-36 md:pt-32">
+    <div
+      id="hero"
+      className="w-full h-screen bg-dark-gray pt-20 text-white px-5 lg:pt-36 md:pt-32"
+    >
       <div className="wrap flex flex-col md:flex-row-reverse lg:flex-row-reverse items-center justify-between">
         <div className="relative">
           <Image
@@ -33,8 +37,15 @@ const Hero = () => {
           </p>
 
           <div className="flex gap-3 justify-center md:justify-start lg:justify-start mt-5">
-            <Button title="Contact Me" />
-            <Button title="Resume" />
+            <Link href="https://wa.me/6282216386576" target="_blank">
+              <Button title="Contact Me" />
+            </Link>
+            <Link
+              href="https://drive.google.com/file/d/1NDnyAvR0S-N-eTQskH0wS_DACNAvmDzd/view?usp=sharing"
+              target="_blank"
+            >
+              <Button title="Resume" />
+            </Link>
           </div>
         </div>
       </div>

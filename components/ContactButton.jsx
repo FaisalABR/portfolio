@@ -14,7 +14,10 @@ const renderLogo = (logo) => {
 const ContactButton = ({ title, logo, to }) => {
   return (
     <Link href={to}>
-      <button className="px-2 py-1  bg-dark-gray rounded-md text-orange shadow-sm flex items-center gap-2 cursor-pointer">
+      <button
+        data-aos="zoom-up"
+        className="px-2 py-1 transition-all hover:shadow-sm hover:shadow-orange-hover bg-dark-gray rounded-md text-orange shadow-sm flex items-center gap-2 cursor-pointer"
+      >
         {renderLogo(logo)}
         {title}
       </button>

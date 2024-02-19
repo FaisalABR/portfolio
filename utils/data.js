@@ -92,3 +92,55 @@ export const featuredProjects = [
     delay: 900,
   },
 ];
+
+export const allProjects = [
+  {
+    id: 14,
+    title: "Store GG",
+    image: "/image/storegg.PNG",
+    tech: ["Next Js", "Tailwind", "Express", "Mongo DB"],
+    link: "https://precious-gecko-bf07b1.netlify.app/",
+  },
+  {
+    id: 15,
+    title: "Drip Shop",
+    image: "/image/drip.PNG",
+    tech: ["React", "Tailwind", "Redux"],
+    link: "https://coruscating-beignet-7b8c51.netlify.app",
+  },
+  {
+    id: 16,
+    title: "Trus",
+    image: "/image/trus.PNG",
+    tech: ["React", "Tailwind"],
+    link: "https://sparkling-tarsier-f07d58.netlify.app",
+  },
+  {
+    id: 16,
+    title: "Web Ticket",
+    image: "/image/web-ticket.PNG",
+    tech: ["Next Js", "Tailwind", "Express", "Mongo DB"],
+    link: "https://graceful-chaja-afb183.netlify.app/",
+  },
+  {
+    id: 17,
+    title: "Web Food",
+    image: "/image/web-food.PNG",
+    tech: ["React", "Bootstrap", "Redux", "Axios"],
+    link: "https://relaxed-cassata-668e5d.netlify.app/",
+  },
+  {
+    id: 18,
+    title: "Ticket API",
+    image: "/image/api.PNG",
+    tech: ["Express", "MongoDB"],
+    link: "https://github.com/FaisalABR/Cinema-API",
+  },
+  {
+    id: 19,
+    title: "Torche Calculator",
+    image: "/image/torche-calculator.PNG",
+    tech: ["React", "Tailwind"],
+    link: "https://replit.com/@riftxd/New-Design-Calculator",
+  },
+];

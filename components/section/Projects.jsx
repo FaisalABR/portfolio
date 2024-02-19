@@ -8,7 +8,7 @@ import Link from "next/link";
 
 const Projects = () => {
   return (
-    <div className="w-full bg-dark py-10">
+    <div id="project" className="w-full bg-dark py-10">
       <div className="wrap text-center">
         <h2 className="head_text pt-10 lg:pt-20" data-aos="zoom-in">
           My <span className="text-orange">Projects</span>
