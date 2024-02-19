@@ -1,11 +1,12 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 const ProjectCard = ({ title, image, tech, link }) => {
   return (
     <Link href={link} target="_blank">
       <div className=" flex flex-col transition-all bottom-0 hover:shadow-lg relative hover:bottom-4 hover:shadow-orange rounded-md ">
-        <img
+        <Image
           src={image}
           alt={title}
           className="w-full h-[200px]  rounded-t-md "

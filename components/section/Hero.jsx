@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Button from "../Button";
 import Link from "next/link";
+import imgHero from "@/public/image/bg-profile.png";
 
 const Hero = () => {
   return (
@@ -11,7 +12,7 @@ const Hero = () => {
       <div className="wrap flex flex-col md:flex-row-reverse lg:flex-row-reverse items-center justify-between">
         <div className="relative">
           <Image
-            src="/image/bg-profile.png"
+            src={imgHero}
             alt="profile"
             width={350}
             height={350}

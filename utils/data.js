@@ -1,3 +1,10 @@
+import storeImg from "@/public/image/storegg.png";
+import dripImg from "@/public/image/drip.png";
+import trusImg from "@/public/image/trus.png";
+import ticketImg from "@/public/image/web-ticket.png";
+import foodImg from "@/public/image/web-food.png";
+import torcheImg from "@/public/image/torche-calculator.png";
+
 export const skillsData = [
   {
     id: 1,
@@ -70,7 +77,7 @@ export const featuredProjects = [
   {
     id: 14,
     title: "Store GG",
-    image: "/image/storegg.PNG",
+    image: storeImg,
     tech: ["Next Js", "Tailwind", "Express", "Mongo DB"],
     link: "https://precious-gecko-bf07b1.netlify.app/",
     delay: 300,
@@ -78,7 +85,7 @@ export const featuredProjects = [
   {
     id: 15,
     title: "Drip Shop",
-    image: "/image/drip.PNG",
+    image: dripImg,
     tech: ["React", "Tailwind", "Redux"],
     link: "https://coruscating-beignet-7b8c51.netlify.app",
     delay: 600,
@@ -86,7 +93,7 @@ export const featuredProjects = [
   {
     id: 16,
     title: "Trus",
-    image: "/image/trus.PNG",
+    image: trusImg,
     tech: ["React", "Tailwind"],
     link: "https://sparkling-tarsier-f07d58.netlify.app",
     delay: 900,
@@ -97,49 +104,49 @@ export const allProjects = [
   {
     id: 14,
     title: "Store GG",
-    image: "/image/storegg.PNG",
+    image: storeImg,
     tech: ["Next Js", "Tailwind", "Express", "Mongo DB"],
     link: "https://precious-gecko-bf07b1.netlify.app/",
   },
   {
     id: 15,
     title: "Drip Shop",
-    image: "/image/drip.PNG",
+    image: dripImg,
     tech: ["React", "Tailwind", "Redux"],
     link: "https://coruscating-beignet-7b8c51.netlify.app",
   },
   {
     id: 16,
     title: "Trus",
-    image: "/image/trus.PNG",
+    image: storeImg,
     tech: ["React", "Tailwind"],
     link: "https://sparkling-tarsier-f07d58.netlify.app",
   },
   {
     id: 16,
     title: "Web Ticket",
-    image: "/image/web-ticket.PNG",
+    image: ticketImg,
     tech: ["Next Js", "Tailwind", "Express", "Mongo DB"],
     link: "https://graceful-chaja-afb183.netlify.app/",
   },
   {
     id: 17,
     title: "Web Food",
-    image: "/image/web-food.PNG",
+    image: foodImg,
     tech: ["React", "Bootstrap", "Redux", "Axios"],
     link: "https://relaxed-cassata-668e5d.netlify.app/",
   },
   {
     id: 18,
     title: "Ticket API",
-    image: "/image/api.PNG",
+    image: ticketImg,
     tech: ["Express", "MongoDB"],
     link: "https://github.com/FaisalABR/Cinema-API",
   },
   {
     id: 19,
     title: "Torche Calculator",
-    image: "/image/torche-calculator.PNG",
+    image: torcheImg,
     tech: ["React", "Tailwind"],
     link: "https://replit.com/@riftxd/New-Design-Calculator",
   },
