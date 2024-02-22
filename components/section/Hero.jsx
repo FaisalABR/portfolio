@@ -42,7 +42,7 @@ const Hero = () => {
               <Button title="Contact Me" />
             </Link>
             <Link
-              href="https://drive.google.com/file/d/1NDnyAvR0S-N-eTQskH0wS_DACNAvmDzd/view?usp=sharing"
+              href="https://drive.google.com/file/d/1OpZDioQvW2sqz4upnifIsIAZCCi7DlgM/view?usp=sharing"
               target="_blank"
             >
               <Button title="Resume" />
