@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <div
       id="hero"
-      className="w-full h-screen bg-dark-gray pt-20 text-white px-5 lg:pt-36 md:pt-32"
+      className="w-full bg-dark-gray py-32 text-white px-5 lg:pt-36 md:pt-32"
     >
       <div className="wrap flex flex-col md:flex-row-reverse lg:flex-row-reverse items-center justify-between">
         <div className="relative">
@@ -34,7 +34,7 @@ const Hero = () => {
             {"I'"}m <br /> Faisal Abu Bakar Riza
           </h1>
           <p className=" text-xl lg:text-3xl md:text-left lg:text-left text-center mt-5">
-            Web Developer and Machine Learning
+            Web Developer
           </p>
 
           <div className="flex gap-3 justify-center md:justify-start lg:justify-start mt-5">
@@ -42,7 +42,7 @@ const Hero = () => {
               <Button title="Contact Me" />
             </Link>
             <Link
-              href="https://drive.google.com/file/d/1OpZDioQvW2sqz4upnifIsIAZCCi7DlgM/view?usp=sharing"
+              href="https://drive.google.com/file/d/1km5M3IEwDO5X1086cDpvYznbfKuVt1Y0/view?usp=sharing"
               target="_blank"
             >
               <Button title="Resume" />

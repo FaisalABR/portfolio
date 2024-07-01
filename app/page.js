@@ -8,6 +8,8 @@ import Projects from "@/components/section/Projects";
 import Contact from "@/components/section/Contact";
 import AOS from "aos";
 import { useEffect } from "react";
+import Experience from "@/components/section/Experience";
+import Testimoni from "@/components/section/Testimoni";
 
 export default function Home() {
   useEffect(() => {
@@ -26,6 +28,7 @@ export default function Home() {
       <About />
       <Skills />
       <Projects />
+      <Testimoni />
       <Contact />
     </div>
   );

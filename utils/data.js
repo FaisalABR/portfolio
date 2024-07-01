@@ -4,6 +4,14 @@ import trusImg from "@/public/image/trus.png";
 import ticketImg from "@/public/image/web-ticket.png";
 import foodImg from "@/public/image/web-food.png";
 import torcheImg from "@/public/image/torche-calculator.png";
+import carImg from "@/public/image/car-showcase.png";
+import kanbanImg from "@/public/image/kanban-react.png";
+import hrcImg from "@/public/image/lp-hrc.png";
+import eventImg from "@/public/image/lp-event.png";
+import listKelas from "@/public/image/list-kelas.png";
+import listContributor from "@/public/image/list-contributor.png";
+import forum from "@/public/image/forum.png";
+import loker from "@/public/image/loker.png";
 
 export const skillsData = [
   {
@@ -92,15 +100,70 @@ export const featuredProjects = [
   },
   {
     id: 16,
-    title: "Trus",
-    image: trusImg,
-    tech: ["React", "Tailwind"],
-    link: "https://sparkling-tarsier-f07d58.netlify.app",
-    delay: 900,
+    title: "Car Showcase",
+    image: carImg,
+    tech: ["Next", "Tailwind", "Headless UI"],
+    link: "https://car-showcase-ten-kappa.vercel.app/",
   },
 ];
 
 export const allProjects = [
+  {
+    id: 27,
+    title: "Loker - Eduwork",
+    image: loker,
+    tech: ["React", "Redux", "Tailwind"],
+    link: "https://sosmed.edudev.xyz/app/loker",
+  },
+  {
+    id: 26,
+    title: "List Kelas - Eduwork",
+    image: listKelas,
+    tech: ["HTML", "Javascript", "Tailwind"],
+    link: "https://sosmed.edudev.xyz/list-kelas",
+  },
+  {
+    id: 25,
+    title: "List Contributor - Eduwork",
+    image: listContributor,
+    tech: ["HTML", "Javascript", "Tailwind"],
+    link: "https://sosmed.edudev.xyz/list-contributor-V2",
+  },
+  {
+    id: 24,
+    title: "Forum - Eduwork",
+    image: forum,
+    tech: ["HTML", "Javascript", "Tailwind"],
+    link: "https://sosmed.edudev.xyz/forum",
+  },
+  {
+    id: 23,
+    title: "Event - Eduwork",
+    image: eventImg,
+    tech: ["HTML", "Javascript", "Tailwind"],
+    link: "https://sosmed.edudev.xyz/lp-event",
+  },
+  {
+    id: 22,
+    title: "HRC - Eduwork",
+    image: hrcImg,
+    tech: ["HTML", "Javascript", "Tailwind"],
+    link: "https://sosmed.edudev.xyz/lp-hrc",
+  },
+  {
+    id: 21,
+    title: "Kanban React",
+    image: kanbanImg,
+    tech: ["React", "Context API", "Tailwind"],
+    link: "https://kanban-react123.netlify.app/projects/project-1",
+  },
+  {
+    id: 20,
+    title: "Car Showcase",
+    image: carImg,
+    tech: ["Next", "Tailwind", "Headless UI"],
+    link: "https://car-showcase-ten-kappa.vercel.app/",
+  },
   {
     id: 14,
     title: "Store GG",
@@ -118,7 +181,7 @@ export const allProjects = [
   {
     id: 16,
     title: "Trus",
-    image: storeImg,
+    image: trusImg,
     tech: ["React", "Tailwind"],
     link: "https://sparkling-tarsier-f07d58.netlify.app",
   },

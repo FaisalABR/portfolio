@@ -84,6 +84,16 @@ const Navbar = () => {
               Projects
             </Link>
             <Link
+              to="testimoni"
+              spy={true}
+              smooth={true}
+              offset={0}
+              duration={500}
+              className="text-orange text-sm font-semibold"
+            >
+              Testimoni
+            </Link>
+            <Link
               to="contact"
               spy={true}
               smooth={true}
@@ -118,6 +128,17 @@ const Navbar = () => {
           >
             <div className="absolute w-0 transition-all group-hover:w-full h-full bg-orange -z-10 "></div>
             Projects
+          </Link>
+          <Link
+            to="testimoni"
+            spy={true}
+            smooth={true}
+            offset={0}
+            duration={500}
+            className="w-fit group text-orange relative font-semibold transition-all bg-transparent hover:text-white "
+          >
+            <div className="absolute w-0 transition-all group-hover:w-full h-full bg-orange -z-10 "></div>
+            Testimoni
           </Link>
           <Link
             to="contact"

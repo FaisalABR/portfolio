@@ -1,6 +1,8 @@
 const About = () => {
   return (
-    <div id="about" className="w-full bg-dark">
+    <div id="about" className="w-full bg-dark relative">
+      <div className="absolute top-0 w-full bg-gradient-to-b h-[50px] from-black/10 to-transparent from-50% to-100%"></div>
+      <div className="absolute bottom-0 w-full bg-gradient-to-t h-[50px] from-black/10 to-transparent from-50% to-100%"></div>
       <div className="wrap text-center">
         <h2 className="head_text pt-10 lg:pt-20" data-aos="fade-down">
           About <span className="text-orange">Me</span>

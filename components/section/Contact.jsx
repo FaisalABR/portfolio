@@ -7,7 +7,9 @@ import ContactButton from "../ContactButton";
 const Contact = () => {
   const router = useRouter();
   return (
-    <div id="contact" className="w-full bg-dark py-10">
+    <div id="contact" className="w-full bg-dark py-10 relative">
+      <div className="absolute top-0 w-full bg-gradient-to-b h-[50px] from-black/10 to-transparent from-50% to-100%"></div>
+      <div className="absolute bottom-0 w-full bg-gradient-to-t h-[50px] from-black/10 to-transparent from-50% to-100%"></div>
       <div className="flex items-center pt-10 lg:pt-20 lg:mb-20 mb-10">
         <div
           className="md:h-2 h-1 w-full bg-orange"
