@@ -11,19 +11,16 @@ const Hero = () => {
     >
       <div className="wrap flex flex-col md:flex-row-reverse lg:flex-row-reverse items-center justify-between">
         <div className="relative">
-          <Image
-            src={imgHero}
-            alt="profile"
-            width={350}
-            height={350}
+          <div
             data-aos="fade-down"
-            className="object-contain rounded-full absolute top-3 left-5 lg:block md:block hidden "
+            className="object-contain size-[350px] bg-orange rounded-full absolute top-3 left-5 lg:block md:block hidden "
           />
           <Image
             src="/image/profile.JPG"
             alt="profile"
             width={350}
             height={350}
+            loading="eager"
             data-aos="fade-up"
             className="object-contain rounded-full relative z-10"
           />

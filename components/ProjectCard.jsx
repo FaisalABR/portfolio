@@ -9,7 +9,8 @@ const ProjectCard = ({ title, image, tech, link }) => {
         <Image
           src={image}
           alt={title}
-          className="w-full h-[200px]  rounded-t-md "
+          loading="lazy"
+          className="w-full h-[300px] rounded-t-md "
         />
         <div className="flex justify-between border-x-[1px] border-b-[1px] pb-2 border-orange rounded-b-md px-3 text-left ">
           <div className="flex flex-col">

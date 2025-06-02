@@ -1,4 +1,4 @@
-import storeImg from "@/public/image/storegg.png";
+import dotRevamp from "@/public/image/dot-revamp.png";
 import dripImg from "@/public/image/drip.png";
 import trusImg from "@/public/image/trus.png";
 import ticketImg from "@/public/image/web-ticket.png";
@@ -12,8 +12,17 @@ import listKelas from "@/public/image/list-kelas.png";
 import listContributor from "@/public/image/list-contributor.png";
 import forum from "@/public/image/forum.png";
 import loker from "@/public/image/loker.png";
+import mindID from "@/public/image/mindid.jpeg";
+import miniSoccer from "@/public/image/mini-soccer.png";
+import monitoring from "@/public/image/monitoring.png";
+import eduworkV2 from "@/public/image/eduwork-v2.png";
 
 export const skillsData = [
+  {
+    id: 14,
+    title: "Golang",
+    image: "/image/go.png",
+  },
   {
     id: 1,
     title: "React",
@@ -28,6 +37,26 @@ export const skillsData = [
     id: 3,
     title: "Node js",
     image: "/image/nodejs.png",
+  },
+  {
+    id: 15,
+    title: "PostgreSQL",
+    image: "/image/postgre.png",
+  },
+  {
+    id: 16,
+    title: "Google Cloud",
+    image: "/image/gcp.png",
+  },
+  {
+    id: 17,
+    title: "Docker",
+    image: "/image/docker.png",
+  },
+  {
+    id: 18,
+    title: "Redis",
+    image: "/image/redis.png",
   },
   {
     id: 4,
@@ -84,26 +113,49 @@ export const skillsData = [
 export const featuredProjects = [
   {
     id: 14,
-    title: "Store GG",
-    image: storeImg,
-    tech: ["Next Js", "Tailwind", "Express", "Mongo DB"],
-    link: "https://precious-gecko-bf07b1.netlify.app/",
+    title: "DOT Revamp",
+    image: dotRevamp,
+    tech: ["Next Js", "Tailwind", "Strapi"],
+    link: "https://www.dot.co.id/",
     delay: 300,
   },
   {
     id: 15,
-    title: "Drip Shop",
-    image: dripImg,
-    tech: ["React", "Tailwind", "Redux"],
+    title: "MIND ID Portal Recruitment",
+    image: mindID,
+    tech: ["React", "NestJS", "NextJS", "AntDesign", "Tailwind"],
     link: "https://coruscating-beignet-7b8c51.netlify.app",
     delay: 600,
   },
   {
+    id: 17,
+    title: "Mini Soccer Microservices",
+    image: miniSoccer,
+    tech: ["Golang", "NextJS", "GCP", "PostgeSQL", "Docker"],
+    link: "https://github.com/FaisalABR/order-service",
+    delay: 600,
+  },
+  {
     id: 16,
-    title: "Car Showcase",
-    image: carImg,
-    tech: ["Next", "Tailwind", "Headless UI"],
-    link: "https://car-showcase-ten-kappa.vercel.app/",
+    title: "DOT Project Monitoring",
+    image: monitoring,
+    tech: ["React", "NextJS", "AntDesign", "PostgreSQL"],
+    link: "https://project-monitoring-dev.dot.co.id/auth/login",
+  },
+  {
+    id: 15,
+    title: "Eduwork V2",
+    image: eduworkV2,
+    tech: ["Laravel", "Tailwind", "Alpine.Js"],
+    link: "https://eduwork.id/",
+    delay: 600,
+  },
+  {
+    id: 16,
+    title: "Trus",
+    image: trusImg,
+    tech: ["React", "Tailwind"],
+    link: "https://sparkling-tarsier-f07d58.netlify.app",
   },
 ];
 
@@ -163,13 +215,6 @@ export const allProjects = [
     image: carImg,
     tech: ["Next", "Tailwind", "Headless UI"],
     link: "https://car-showcase-ten-kappa.vercel.app/",
-  },
-  {
-    id: 14,
-    title: "Store GG",
-    image: storeImg,
-    tech: ["Next Js", "Tailwind", "Express", "Mongo DB"],
-    link: "https://precious-gecko-bf07b1.netlify.app/",
   },
   {
     id: 15,

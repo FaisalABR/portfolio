@@ -16,7 +16,7 @@ const Projects = () => {
           My <span className="text-orange">Projects</span>
         </h2>
 
-        <div className="w-full mt-10 grid grid-cols-1 md:grid-cols-3 gap-4">
+        <div className="w-full mt-10 grid grid-cols-1 md:grid-cols-2 gap-4">
           {featuredProjects.map((item) => (
             <ProjectCard
               key={item.id}
