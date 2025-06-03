@@ -1,9 +1,17 @@
-const Button = ({ title }) => {
+import cx from "classnames";
+
+const Button = ({ title, secondary }) => {
+  const btnClass = cx(
+    "px-4 py-2 font-medium text-sm md:text-lg rounded-full  cursor-pointer",
+    {
+      "bg-transparent border-solid border border-orange text-orange hover:bg-white/20":
+        secondary,
+      "bg-orange text-white hover:bg-orange-hover": !secondary,
+    }
+  );
+
   return (
-    <button
-      type="button"
-      className="px-3 py-2 bg-orange text-white text-sm md:text-lg rounded-md hover:bg-orange-hover cursor-pointer"
-    >
+    <button type="button" className={btnClass}>
       {title}
     </button>
   );

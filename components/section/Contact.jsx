@@ -1,11 +1,9 @@
 "use client";
 import Link from "next/link";
-import { useRouter } from "next/navigation";
 import { FaLinkedin, FaGithub, FaInstagramSquare } from "react-icons/fa";
 import ContactButton from "../ContactButton";
 
 const Contact = () => {
-  const router = useRouter();
   return (
     <div id="contact" className="w-full bg-dark py-10 relative">
       <div className="absolute top-0 w-full bg-gradient-to-b h-[50px] from-black/10 to-transparent from-50% to-100%"></div>

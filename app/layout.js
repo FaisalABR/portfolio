@@ -1,8 +1,8 @@
-import { Roboto } from "next/font/google";
+import { Poppins } from "next/font/google";
 import "./globals.css";
 import "aos/dist/aos.css";
 
-const poppins = Roboto({
+const poppins = Poppins({
   subsets: ["latin"],
   weight: ["100", "300", "400", "500", "700", "900"],
 });

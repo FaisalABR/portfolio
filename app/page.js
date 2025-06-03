@@ -2,13 +2,11 @@
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/section/Hero";
 import About from "@/components/section/About";
-import Image from "next/image";
 import Skills from "@/components/section/Skills";
 import Projects from "@/components/section/Projects";
 import Contact from "@/components/section/Contact";
 import AOS from "aos";
 import { useEffect } from "react";
-import Experience from "@/components/section/Experience";
 import Testimoni from "@/components/section/Testimoni";
 
 export default function Home() {
