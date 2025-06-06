@@ -117,12 +117,12 @@ export const featuredProjects = [
     image: dotRevamp,
     tech: ["Next Js", "Tailwind", "Strapi"],
     link: "https://www.dot.co.id/",
-    description: `The **Dot Revamp** project is a modern web redesign initiative built 
-      using **Next.js** and **Tailwind CSS**, with a strong focus on delivering a visually engaging user experience 
-      through smooth and dynamic animations. Despite the rich visual effects, the project prioritizes **performance 
-      optimization**, achieving a **Lighthouse performance score of 90+** across pages. SEO best practices are also 
+    description: `The Dot Revamp project is a modern web redesign initiative built 
+      using Next.js and Tailwind CSS, with a strong focus on delivering a visually engaging user experience 
+      through smooth and dynamic animations. Despite the rich visual effects, the project prioritizes performance 
+      optimization, achieving a Lighthouse performance score of 90+ across pages. SEO best practices are also 
       carefully implemented, ensuring the website is not only fast but also highly discoverable by search engines. The result is a responsive, 
-      aesthetically pleasing, and **SEO-friendly** website that balances interactivity with technical excellence.`,
+      aesthetically pleasing, and SEO-friendly website that balances interactivity with technical excellence.`,
     slug: "dot-revamp",
   },
   {
@@ -131,15 +131,8 @@ export const featuredProjects = [
     image: mindID,
     tech: ["React", "NestJS", "NextJS", "AntDesign", "Tailwind"],
     link: "https://coruscating-beignet-7b8c51.netlify.app",
-    description: `The **Mind ID Portal Recruitment** project is a recruitment 
-    platform developed for **MIND ID**, a state-owned holding company in Indonesia. 
-    This project consists of two main web applications: a **backoffice portal** for internal HR operations 
-    and a **public-facing site** for applicants. The backoffice is built using **NestJS** integrated 
-    with **Inertia.js and React**, implementing the **atomic design pattern** and utilizing **Ant Design** 
-    as the component library to ensure consistency and scalability across the UI. 
-    Meanwhile, the applicant-facing website is developed using **Next.js** and **Tailwind CSS**, 
-    focusing on a clean user experience and responsive design. Together, these platforms streamline the 
-    hiring process while ensuring a robust and modern tech foundation.`,
+    description: `The <span className="text-orange font-medium">Mind ID Portal Recruitment</span> project is a recruitment platform developed for <span className="text-orange font-medium">MIND ID</span>, a state-owned holding company in Indonesia. This project consists of two main web applications: a <span className="text-orange font-medium">backoffice portal</span> for internal HR operations and a <span className="text-orange font-medium">public-facing site</span> for applicants. The backoffice is built using <span className="text-orange font-medium">NestJS</span> integrated with <span className="text-orange font-medium">Inertia.js and React</span>, implementing the <span className="text-orange font-medium">atomic design pattern</span> and utilizing <span className="text-orange font-medium">Ant Design</span> as the component library to ensure consistency and scalability across the UI. Meanwhile, the applicant-facing website is developed using <span className="text-orange font-medium">Next.js</span> and <span className="text-orange font-medium">Tailwind CSS</span>, focusing on a clean user experience and responsive design. Together, these platforms streamline the hiring process while ensuring a robust and modern tech foundation.
+`,
     slug: "mind-id-portal",
   },
   {
@@ -149,11 +142,11 @@ export const featuredProjects = [
     tech: ["Golang", "NextJS", "GCP", "PostgeSQL", "Docker"],
     link: "https://github.com/FaisalABR/order-service",
     description: `
-    The **Mini Soccer** project is a microservices-based backend system built with **Golang** using the 
-    *Gin** framework and **Clean Architecture** for maintainability. It integrates **Midtrans** for payments, 
-    **Kafka** for inter-service communication, and is deployed on **Google Cloud Platform** using **Cloud SQL** and 
-    **Cloud Storage**. All services are containerized with **Docker** and deployed via **CI/CD pipelines using Jenkins**. 
-    **Redis** is added for caching to improve performance, and **unit tests with mocking** ensure reliability. **Postman** is used for API testing, making the system robust, scalable, and production-ready.
+    The Mini Soccer project is a microservices-based backend system built with Golang using the 
+    *Gin framework and Clean Architecture for maintainability. It integrates Midtrans for payments, 
+    Kafka for inter-service communication, and is deployed on Google Cloud Platform using Cloud SQL and 
+    Cloud Storage. All services are containerized with Docker and deployed via CI/CD pipelines using Jenkins. 
+    Redis is added for caching to improve performance, and unit tests with mocking ensure reliability. Postman is used for API testing, making the system robust, scalable, and production-ready.
     `,
     slug: "mini-soccer-microservices",
   },
@@ -163,11 +156,11 @@ export const featuredProjects = [
     image: monitoring,
     tech: ["React", "NextJS", "AntDesign", "PostgreSQL"],
     description: `
-    The **DOT Project Monitoring** is an internal web application developed to track ongoing projects 
-    handled by **DOT** and manage the talents assigned to each project. Built with the same tech stack and 
-    architectural approach as the backoffice of the Mind ID Portal Recruitment, it uses **NestJS** integrated 
-    with **Inertia.js and React**, implements **atomic component design**, and 
-    adopts **Ant Design** for consistent UI. The system enables efficient monitoring of project progress,
+    The DOT Project Monitoring is an internal web application developed to track ongoing projects 
+    handled by DOT and manage the talents assigned to each project. Built with the same tech stack and 
+    architectural approach as the backoffice of the Mind ID Portal Recruitment, it uses NestJS integrated 
+    with Inertia.js and React, implements atomic component design, and 
+    adopts Ant Design for consistent UI. The system enables efficient monitoring of project progress,
      team allocation, and performance insights, supporting better decision-making and resource management within 
      the organization.`,
     link: "https://project-monitoring-dev.dot.co.id/auth/login",
@@ -179,9 +172,9 @@ export const featuredProjects = [
     image: eduworkV2,
     tech: ["Laravel", "Tailwind", "Alpine.Js"],
     link: "https://eduwork.id/",
-    description: `**Eduwork** is a learning platform focused on developing career-oriented 
-    hard skills such as **web development**, **data science**, and more. The platform is built 
-    using **Laravel Blade** as its templating engine and styled with **Tailwind CSS**, ensuring a 
+    description: `Eduwork is a learning platform focused on developing career-oriented 
+    hard skills such as web development, data science, and more. The platform is built 
+    using Laravel Blade as its templating engine and styled with Tailwind CSS, ensuring a 
     clean and responsive user interface. Eduwork provides structured learning paths and practical 
     resources to help learners gain industry-relevant skills and prepare for real-world job opportunities.`,
     slug: "eduwork-v2",
@@ -192,9 +185,9 @@ export const featuredProjects = [
     image: trusImg,
     tech: ["React", "Tailwind"],
     description: `
-    The **Trus** landing page is a promotional website built using **React** and **Tailwind CSS**, 
-    designed to introduce and showcase **Trus** — a company that provides an **online stock trading 
-    platform** with a **White Label program** tailored for Indonesian brokerage firms. The website 
+    The Trus landing page is a promotional website built using React and Tailwind CSS, 
+    designed to introduce and showcase Trus — a company that provides an online stock trading 
+    platform with a White Label program tailored for Indonesian brokerage firms. The website 
     emphasizes clarity and responsiveness, delivering key information about Trus’s offerings while 
     maintaining a modern and professional look to attract potential partners and clients in the financial industry.`,
     link: "https://sparkling-tarsier-f07d58.netlify.app",

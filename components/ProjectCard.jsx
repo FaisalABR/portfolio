@@ -12,7 +12,7 @@ const ProjectCard = ({ title, image, tech, link, slug }) => {
             src={image}
             alt={title}
             loading="lazy"
-            className="w-full h-[300px] rounded-t-md "
+            className="w-full h-[300px] object-cover md:object-fill rounded-t-md "
           />
           <div className="absolute top-0 left-0 right-0 bottom-0 bg-transparent group-hover:backdrop-blur-sm group-hover:bg-black/40 transition-all text-white flex items-center justify-center">
             <p className="hidden group-hover:inline font-medium delay-200 transition-all">
@@ -24,7 +24,7 @@ const ProjectCard = ({ title, image, tech, link, slug }) => {
       <div className="flex justify-between border-t-[1px] py-2 border-orange rounded-b-md px-3 text-left ">
         <div className="flex flex-col gap-4">
           <p className="text-lg text-orange font-semibold">{title}</p>
-          <div className="flex gap-2 justify-center md:justify-start lg:justify-start ">
+          <div className="flex gap-2 flex-wrap justify-center md:justify-start lg:justify-start ">
             {tech.map((item, i) => (
               <span
                 key={i}

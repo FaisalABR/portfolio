@@ -5,6 +5,7 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+  safelist: ["text-orange", "font-medium"],
   theme: {
     extend: {
       backgroundImage: {
