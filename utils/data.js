@@ -17,6 +17,8 @@ import miniSoccer from "@/public/image/mini-soccer.png";
 import monitoring from "@/public/image/monitoring.png";
 import eduworkV2 from "@/public/image/eduwork-v2.png";
 
+// Test
+
 export const skillsData = [
   {
     id: 14,
