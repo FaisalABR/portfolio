@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Button from "../Button";
 import Link from "next/link";
-import imgHero from "@/public/image/bg-profile.png";
 
 const Hero = () => {
   return (
@@ -39,7 +38,7 @@ const Hero = () => {
               <Button title="Contact Me" />
             </Link>
             <Link
-              href="https://drive.google.com/file/d/1W1ta9zeW_j6eeIPPFTVMDzwmBpllVbyD/view?usp=sharing"
+              href="https://drive.google.com/file/d/1MExUu1puXyWcy9v_RzWZoxYpBKoRJPR_/view?usp=sharing"
               target="_blank"
             >
               <Button title="Resume" secondary />
